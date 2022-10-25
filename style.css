@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+}
+
+#navbar {
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.navitem {
+    float: left;
+}
+
+.navlink {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navlink:hover {
+    background-color: #111;
+}
+
+.navbutton:hover {
+    cursor: pointer;
+}
+
+#teamheader {
+    position: absolute;
+    text-align: center;
+    width: 1200px;
+    left: 440px;
+    margin: 0px;
+}
+
+.logo {
+    width: 470px;
+    position: absolute;
+    margin: 10px;
+    top: 10px;
+    left: 20px;
+}
+
+#rankings {
+    list-style: none;
+    position: relative;
+    padding: 0px;
+    width: 500px;
+    left: 470px;
+    margin: 10px;
+}
+
+.weeklabel {
+    position: relative;
+    text-align: center;
+}
+
+.teamrank {
+    position: relative;
+    text-align: center;
+    width: 480px;
+    padding: 10px;
+}
+
+.teamlink{
+    text-decoration: none;
+    color: black;
+}
+
+#confstandings {
+    list-style: none;
+    position: relative;
+    padding: 0px;
+    width: 500px;
+    left: 470px;
+    margin: 10px;
+}
+
+#schedule {
+    list-style: none;
+    position: absolute;
+    padding: 0px;
+    width: 700px;
+    margin: 0px;
+    left: 620px;
+    top: 196px;
+}
+
+.week {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbutton {
+    margin: 0px;
+    padding: 20px;
+    border: 0px;
+    font-size: medium;
+    display: block;
+}
+
+#content {
+    position: relative;
+    top: 0px;
+}
+
+.conflogo {
+    width: 120px;
+    border: 2px;
+}
+
+#header {
+    position: relative;
+    width: 500px;
+    left: 470px;
+    text-align: center;
+    margin: 10px;
+}
+
+#confbuttons {
+    position: relative;
+    left: 144px;
+}
+
+.confbutton {
+    padding: 0px;
+    margin: 10px;
+}
+
+#logo {
+    position: relative;
+    height: 42px;
+    padding: 6px;
+}
+
+#logobox {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}

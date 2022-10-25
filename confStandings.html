@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <ul id="navbar">
+            <li id="logobox"><img id="logo"></img></li>
+            <li class="navitem"><a class="navlink">team info</a></li>
+            <li class="navitem"><a id="active" class="navlink" href="confStandings.html">conference standings</a></li>
+            <li class="navitem"><a class="navlink" href="rankings.html">rankings</a></li>
+            <li class="navitem"><button class="navbutton" onclick="simWeek()">sim one week</button></li>
+            <li class="navitem"><button class="navbutton" onclick="reset()">reset</button></li>
+        </ul>
+
+        <div id="content">
+            <h1 id="header">Conference standings</h1>
+
+            <div id="confbuttons">
+                <button class="confbutton" onclick="confStandings(0)"><img class="conflogo" src="conferences/SEC.png"></button>
+                <button class="confbutton" onclick="confStandings(1)"><img class="conflogo" src="conferences/B1G.png"></button>
+                <button class="confbutton" onclick="confStandings(2)"><img class="conflogo" src="conferences/ACC.png"></button>
+                <button class="confbutton" onclick="confStandings(3)"><img class="conflogo" src="conferences/XII.png"></button>
+                <button class="confbutton" onclick="confStandings(4)"><img class="conflogo" src="conferences/Pac-12.png"></button>
+                <button class="confbutton" onclick="confStandings(5)"><img class="conflogo" src="conferences/American.png"></button>
+                <button class="confbutton" onclick="confStandings(6)"><img class="conflogo" src="conferences/MWC.png"></button>
+                <button class="confbutton" onclick="confStandings(7)"><img class="conflogo" src="conferences/SBC.png"></button>
+            </div>
+
+            <ul id="confstandings"></ul>
+
+            <div id="confresults">
+                <p id="confChampion"></p>
+                <p id="runnerUp"></p>
+            </div>
+        </div>
+
+        <script src="main.js"> </script>
+    </body>
+</html>
